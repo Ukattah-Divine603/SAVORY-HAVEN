@@ -1,2 +1,3 @@
-// Array of image URLs
+
+
 

@@ -150,6 +150,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,12 +193,15 @@ body{
     background-repeat: no-repeat;
     width: 100lvw;
     gap: 1rem;
- 
+ animation: slide 90s infinite;
     display: flex;
 flex-direction: column-reverse;   
  height: 100lvh;
     transition: 2s;
 }
+
+
+
 
 .container{
     position: relative;
@@ -257,6 +261,7 @@ font-size: 1rem;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100lvw;
+    animation: slide 50s infinite;
     gap: 1rem;
     display: flex;
 flex-direction: column-reverse;   
@@ -270,6 +275,7 @@ flex-direction: column-reverse;
 
     background-image: url(drop.avif);
     background-position: center;
+    animation: slide 50s infinite;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100lvw;
@@ -288,6 +294,7 @@ flex-direction: column-reverse;
     background-repeat: no-repeat;
     width: 100lvw;
     gap: 1rem;
+    animation: slide 50s infinite;
     display: flex;
 flex-direction: column-reverse;   
  height: 100lvh;
