@@ -1,0 +1,251 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+  flex-direction: row;
+  margin: 0%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(1px);
+  top: 0;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  margin: 0%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+span{
+  font-weight: 500;
+  color: goldenrod;
+  font-style: italic;
+}
+
+
+
+header > .left-section > img{
+width: 5rem;
+}
+
+header > .left-section > p{
+   font-size: 2rem;
+   font-weight: 700;
+
+color: #fffffffb;
+    font-family: Josefin Sans;
+    }
+
+    header > .left-section{
+    display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+        }
+
+        ul{
+         display: flex;
+            gap: 1rem;
+            list-style-type: none;
+            align-items: center;
+                 text-align: center;
+            /* margin-top: -.5rem; */
+            justify-content: center;
+        }
+
+        ul li a{
+          text-decoration: none;
+          color: #ffffff;  
+          font-family: Ubuntu;
+          text-align: center;
+          border: 1px solid goldenrod;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        }
+
+        ul li a:hover{
+            text-decoration: none;
+            color: rgb(255, 255, 255);  
+            font-family: Ubuntu;
+            background-color: goldenrod;
+            text-align: center;
+            border: 1px solid rgb(255, 255, 255);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: .5s;
+          }
+
+          .intro{
+            background-image: url(about.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        gap: -5rem;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+          }
+
+          .intro > img{
+            width: 20rem;
+          }
+
+          .go-up{
+            position: fixed;
+            top: 35rem;
+         
+            bottom: 0;
+            left: 78rem;
+            right: 0;
+           
+          }
+
+          .go-up li a{
+         
+            box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.636);
+         border-radius: 50%;
+           
+            
+            width: 1rem;
+          }
+
+          .intro > p{
+            text-shadow: 1px 1px 1px goldenrod;
+            
+            font-family: Ubuntu;
+            color: #ffffff;
+            font-size: 4rem;
+          }
+.history{
+          background-image: url(mix-vegetables-corn-carrots-peppers-broccoli-onions-teriyaki-sauce-ceramic-plate-dark-concrete-background_73989-49225.avif);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100%;
+          display: flex;
+      flex-direction: column;
+      gap: -5rem;
+      align-items: center;
+      justify-content: center;  
+       height: 100lvh;
+}
+
+li a{
+  text-decoration: none;
+  color: #ffffff;  
+  font-family: Ubuntu;
+  text-align: center;
+  border: 1px solid goldenrod;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h4{
+    font-family: Ubuntu;
+  color: #ffffff;
+
+}
+
+li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+    font-family: Ubuntu;
+    background-color: goldenrod;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .5s;
+  }
+
+  .details > img{
+    width: 6rem;
+  }
+
+  .details{
+    font-family: Josefin Sans;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+color: white;
+
+  }
+
+  .history > div{
+    display: grid;
+ grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+  }
+
+  h1{
+color: rgb(255, 255, 255);
+-webkit-text-stroke: 2px goldenrod;
+  }
+
+  .p-pple{
+    font-family: Ubuntu;
+    font-size: 1.3rem;
+    text-align: left;
+    color: white;
+    line-height: 2rem;
+    justify-content: center;
+  }
+
+  .copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+  }
+
+  .dirp{
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(218, 165, 32, 0.636);
+  }

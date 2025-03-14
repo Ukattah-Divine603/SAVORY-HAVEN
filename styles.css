@@ -1,0 +1,349 @@
+/* .home-section {
+    background-image: url(image3.jpg);
+    background-size: cover;  
+    background-position: center;  
+    height: 96lvh;
+    backdrop-filter: blur(10px);
+
+    
+    width: auto;  
+    color: white;  
+    text-align: center;  
+    padding: 20px;
+    transition: background-image 1s ease-in-out; 
+}
+
+/* body{
+    padding: 0%;
+    margin: 0%;
+} */
+
+header{
+    display: flex;
+  flex-direction: row;
+  margin: 0%;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  margin: 0%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header > .left-section > img{
+width: 3.5rem;
+}
+
+header > .left-section > p{
+   font-size: 1.5rem;
+   font-weight: 700;
+
+color: #fffffffb;
+    font-family: Josefin Sans;
+    }
+
+    header > .left-section{
+    display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+        }
+
+        ul{
+         display: flex;
+            gap: 1rem;
+            list-style-type: none;
+            align-items: center;
+                 text-align: center;
+            /* margin-top: -.5rem; */
+            justify-content: center;
+        }
+
+        ul li a{
+          text-decoration: none;
+          color: #ffffff;  
+          font-family: Ubuntu;
+          text-align: center;
+          /* border: 1px solid goldenrod; */
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        }
+
+        ul li a:hover{
+            text-decoration: none;
+            color: white;  
+            font-family: Ubuntu;
+            background-color: #daa520;
+            text-align: center;
+            border: 1px solid white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: .5s;
+          }
+
+    .container li a{
+            text-decoration: none;
+            color: #ffffff;  
+            font-family: Ubuntu;
+            text-align: center;
+            border: 1px solid goldenrod;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+       display: flex;
+       width: 10rem;
+       justify-content: center;
+       align-items: center;
+          }
+  
+          li a:hover{
+              text-decoration: none;
+              color: rgb(255, 255, 255);  
+              font-family: Ubuntu;
+              background-color: goldenrod;
+              text-align: center;
+              border: 1px solid rgb(255, 255, 255);
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 20px;
+              padding-right: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         transition: .5s;
+            }
+
+
+      
+
+        /* ul li:hover{
+            text-decoration: none;
+            color: #ffffff;  
+            border: 1px solid goldenrod;
+            padding: 1rem;
+            font-family: Ubuntu;
+            
+          } */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.first > p{
+    z-index: 2;
+}
+
+.slider .slides .slide img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.slider{
+    width: 100vw;
+    height: 100lvh;
+ 
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+
+}
+.slides > input{
+    display: none;
+}
+
+.sliderr{
+    background-image: url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100lvw;
+    gap: 1rem;
+ 
+    display: flex;
+flex-direction: column-reverse;   
+ height: 100lvh;
+    transition: 2s;
+}
+
+.container{
+    position: relative;
+display: flex;
+
+flex-direction: column;
+justify-content: left;
+align-items: left;
+ padding: 4rem;
+ margin-top: -3rem;
+ margin-left: 2rem;
+
+   
+}
+
+.for{
+ margin-bottom: -5rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.fir{
+    margin-top: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.fir{
+    margin: 1rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.container > h4{
+    font-family: Ubuntu;
+color: rgb(255, 255, 255);
+text-shadow: #8a8888;
+font-size: 4rem;
+}
+
+.container > p{
+    margin-top: -2rem;
+    font-weight: 400;
+    font-family: Ubuntu;
+color: rgb(224, 224, 224);
+font-size: 1rem;
+}
+
+.slid{
+
+    background-image: url(soup4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100lvw;
+    display: flex;
+flex-direction: row;   
+ height: 100lvh;
+    transition: 2s;
+}
+
+
+
+.slyde{
+
+    background-image: url(drop.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100lvw;
+    display: flex;
+flex-direction: row;   
+ height: 100lvh;
+    transition: 2s;
+}
+
+.slyd{
+
+    background-image: url(soup3.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100lvw;
+    display: flex;
+flex-direction: row;   
+ height: 100lvh;
+    transition: 2s;
+}
+
+
+
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual{
+position: absolute;
+width: 10px;
+margin-left: 10rem;
+gap: 1rem;
+margin-top: 20rem;
+display: flex;
+margin-left: 50vw;
+justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #ffffff;
+padding: 5px;
+ 
+border-radius: 20rem;
+cursor: pointer;
+margin: auto;
+transition: 1s;
+/* position: absolute; */
+/* bottom: 4; */
+/* margin-left: 50%; */
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 1px;
+}
+
+.manual-btn:hover{
+    background: goldenrod;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60% ;
+}
+
+
+
