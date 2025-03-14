@@ -12,15 +12,11 @@ header{
   flex-direction: row;
   margin: 0%;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
-  backdrop-filter: blur(1px);
   top: 0;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  padding-left: 2rem;
-  padding-right: 1rem;
+ padding: 2rem;
   margin: 0%;
   height: auto;
   justify-content: space-between;
@@ -28,25 +24,12 @@ header{
 
 }
 
-main{
-  gap: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-span{
-  font-weight: 500;
-  color: goldenrod;
-  font-style: italic;
-}
-
-
-
 header > .left-section > img{
-width: 5rem;
+width: 3.5rem;
 }
 
 header > .left-section > p{
-   font-size: 2rem;
+   font-size: 1.5rem;
    font-weight: 700;
 
 color: #fffffffb;
@@ -76,23 +59,23 @@ color: #fffffffb;
           color: #ffffff;  
           font-family: Ubuntu;
           text-align: center;
-          border: 1px solid goldenrod;
+          /* /* border: 1px solid goldenrod; */
           padding-top: 10px;
           padding-bottom: 10px;
           padding-left: 20px;
           padding-right: 20px;
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: center; 
         }
 
         ul li a:hover{
             text-decoration: none;
-            color: rgb(255, 255, 255);  
+            color: white;  
             font-family: Ubuntu;
-            background-color: goldenrod;
+            background-color: transparent;
             text-align: center;
-            border: 1px solid rgb(255, 255, 255);
+            border: 1px solid white;
             padding-top: 10px;
             padding-bottom: 10px;
             padding-left: 20px;
@@ -102,6 +85,39 @@ color: #fffffffb;
        align-items: center;
        transition: .5s;
           }
+
+    /* .container li a{
+            text-decoration: none;
+            color: #ffffff;  
+            font-family: Ubuntu;
+            text-align: center;
+            border: 1px solid goldenrod;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+       display: flex;
+       width: 10rem;
+       justify-content: center;
+       align-items: center;
+          } */
+  
+          li a:hover{
+              text-decoration: none;
+              color: rgb(255, 255, 255);  
+              font-family: Ubuntu;
+              background-color: goldenrod;
+              text-align: center;
+              border: 1px solid rgb(255, 255, 255);
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 20px;
+              padding-right: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         transition: .5s;
+            }
 
           .intro{
             background-image: url(about.jpg);
@@ -121,23 +137,47 @@ color: #fffffffb;
             width: 20rem;
           }
 
-          .right li a{
-            box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.636);
-            border-radius: 50%;
-              
-             display: flex;
-             flex-direction: flex-end;
-               width: 1rem;
-          }
+    .right li a{
+      border: #daa520 solid 2px;
+      color: #ffffff;
+padding: 1rem;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+    }
 
+    .right li a:hover{
+        border: white solid 2px;
+      color: #ffffff;
+padding: 1rem;
+background-color: #daa520;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+    }
           .right{
             position: absolute;
             top: 80%;
-         
+        
             bottom: 0;
             left: 50%;
             right: 0;
           }
+
+          main{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+span{
+  font-weight: 500;
+  color: goldenrod;
+  font-style: italic;
+}
 
           .go-up{
             position: absolute;
@@ -151,12 +191,26 @@ color: #fffffffb;
 
           .go-up li a{
          
-            box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.636);
-         border-radius: 50%;
-           
-          display: flex;
-          flex-direction: flex-end;
-            width: 1rem;
+                border: #daa520 solid 2px;
+      color: #ffffff;
+padding: 1rem;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+          }
+
+          .go-up li a:hover{
+                    border: white solid 2px;
+      color: #ffffff;
+padding: 1rem;
+background-color: #daa520;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
           }
 
           .intro > p{
@@ -167,7 +221,7 @@ color: #fffffffb;
             font-size: 4rem;
           }
 .history{
-          background-image: url(mix-vegetables-corn-carrots-peppers-broccoli-onions-teriyaki-sauce-ceramic-plate-dark-concrete-background_73989-49225.avif);
+          background-image: url(empty-black-espresso-coffee-cup-black-table-top-view-copy-space-minimalist-breakfast-idea-black-sunshine-coffee-steam.jpg);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -180,20 +234,6 @@ color: #fffffffb;
        height: 100lvh;
 }
 
-li a{
-  text-decoration: none;
-  color: #ffffff;  
-  font-family: Ubuntu;
-  text-align: center;
-  border: 1px solid goldenrod;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
 h4{
     font-family: Ubuntu;
@@ -260,7 +300,9 @@ color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     flex-direction: row;
   }
 
