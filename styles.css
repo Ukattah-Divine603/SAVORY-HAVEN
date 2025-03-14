@@ -229,7 +229,8 @@ align-items: left;
 }
 
 .fir{
-    margin: 1rem;
+    margin-bottom: -5rem;
+    
     height: 30rem;
     width: 30rem;
 }
@@ -256,8 +257,9 @@ font-size: 1rem;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100lvw;
+    gap: 1rem;
     display: flex;
-flex-direction: row;   
+flex-direction: column-reverse;   
  height: 100lvh;
     transition: 2s;
 }
@@ -271,8 +273,9 @@ flex-direction: row;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100lvw;
+    gap: 1rem;
     display: flex;
-flex-direction: row;   
+flex-direction: column-reverse;   
  height: 100lvh;
     transition: 2s;
 }
@@ -284,8 +287,9 @@ flex-direction: row;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100lvw;
+    gap: 1rem;
     display: flex;
-flex-direction: row;   
+flex-direction: column-reverse;   
  height: 100lvh;
     transition: 2s;
 }
