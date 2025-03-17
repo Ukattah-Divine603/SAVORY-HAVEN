@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 
 header{
     display: flex;
@@ -101,12 +105,12 @@ color: #fffffffb;
             }
 
             .our-menu{
-            background-image: url(flat-lay-table-full-delicious-food-composition.jpg);
+            background-image: url(ingredients-near-pizza_23-2147772081.avif);
             background-position: center;
             background-size: cover;
          
             background-repeat: no-repeat;
-            opacity: 0.8;
+font-weight: 500;
             width: 100%;
             display: flex;
         flex-direction: column;
@@ -116,7 +120,7 @@ color: #fffffffb;
          height: 100lvh;
             }
 
-            .our-menu::before{
+            /* .our-menu::before{
                 content: "";
                 position: absolute;
                 top: 0;
@@ -125,7 +129,7 @@ color: #fffffffb;
                 height: 100%;
                 background-color: rgba(0, 0, 0, 0.537);
                 
-            }
+            } */
 
             body{
 margin: 0%;
@@ -149,20 +153,320 @@ font-size: 5rem;
             }
 
             .page{
-                background-image: url(soup1.avif);
+                background-image: url(toasted-bread-dark-plate-dark-cloth_23-2148340421.avif);
                 background-position: center;
                 background-size: cover;
              
                 background-repeat: no-repeat;
-                opacity: 0.8;
+              
                 width: 100%;
                 display: flex;
             flex-direction: column;
-            gap: -5rem;
+            padding: 0%;
+            margin: 0%;
             align-items: center;
             justify-content: center;  
              height: 100lvh;
             }
 
+            .page article img{
+                width: 20rem;
+            }
 
-       
+            .page article p{
+                font-family: Josefin Sans;
+                font-size: 2rem;
+                color: white;
+                text-align: center;
+            }
+
+            .albulm{
+                display: flex;
+                flex-direction: row;
+justify-content: center;
+align-items: center;
+            }
+
+            .albulm img{
+                width: 10rem;
+                
+            }
+
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .breakfast p{
+                font-family: Josefin Sans;
+                font-size: 2rem;
+                color: white;
+                text-align: center;
+                
+            }
+
+            .under .hr{
+                width: 2rem;
+                height: .5rem;
+                border-radius: 1rem;
+                margin-top: -1.5rem;
+                background-color: goldenrod;
+            }
+
+            .under{
+                display: flex;
+                
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+.port{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    /* line-height: .5rem; */
+    align-items: left;
+    text-align: left;
+    color: white;
+}
+
+
+.price{
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 1rem;
+    margin-top: -1rem;
+    font-weight: 700;
+    color: #ffb700;
+}
+
+.help{
+    font-size: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    margin-top: 2rem;
+}
+
+.help h1{
+    font-size: 1.5rem;
+    font-family: Josefin Sans;
+}
+
+.help h6{
+    margin-top: -.5rem;
+font-size: 1rem;
+font-family: Ubuntu;
+}
+
+.firsty{
+    gap: 2rem;
+}
+
+.go-up{
+    position: absolute;
+    top: 180%;
+ 
+    bottom: 0;
+    left: 90%;
+    right: 0;
+   
+  }
+
+  .go-up li a{
+ 
+        border: #daa520 solid 2px;
+color: #ffffff;
+padding: 1rem;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+  }
+
+  .go-up li a:hover{
+            border: white solid 2px;
+color: #ffffff;
+padding: 1rem;
+background-color: #daa520;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+  }
+
+  .right li a{
+    border: #daa520 solid 2px;
+    color: #ffffff;
+padding: 1rem;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+  }
+
+  .right li a:hover{
+      border: white solid 2px;
+    color: #ffffff;
+padding: 1rem;
+background-color: #daa520;
+width: 2rem ;
+align-items: center;
+justify-content: center;
+display: flex;
+border-radius: 50%;
+  }
+        .right{
+          position: absolute;
+          top: 80%;
+      
+          bottom: 0;
+          left: 90%;
+          right: 0;
+        }
+
+        .page2{
+            background-image: url(delicious-juicy-fresh-salad-baked-eggplant-tomatoes-zucchini-onions-spices-salt-dark-concrete-background_73989-48834.avif);
+            background-position: center;
+            background-size: cover;
+         
+            background-repeat: no-repeat;
+          
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+        }
+
+        .page2 article img{
+            width: 20rem;
+        }
+
+        .page2 article p{
+            font-family: Josefin Sans;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .page3{
+            background-image: url(c61d9442136b74a08fa39861465db145.jpg);
+            background-position: center;
+            background-size: cover;
+         
+            background-repeat: no-repeat;
+          
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+        }
+
+        .page3 article img{
+            width: 20rem;
+        }
+
+        .page3 article p{
+            font-family: Josefin Sans;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .page4{
+            background-image: url(pad-thai-minimalist-setting-pad-thai-stirfried-rice-noodles-with-shrimps-peanuts_1020697-347280.jpg);
+            background-position: center;
+            background-size: cover;
+         
+            background-repeat: no-repeat;
+          
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+        }
+
+        .page4 article img{
+            width: 20rem;
+        }
+
+        .page4 article p{
+            font-family: Josefin Sans;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .page5{
+            background-image: url(piece-sweet-chocolate-cake-with-nuts_73989-77194.avif);
+            background-position: center;
+            background-size: cover;
+         
+            background-repeat: no-repeat;
+          
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+        }
+
+        .page5 article img{
+            width: 20rem;
+        }
+
+        .page5 article p{
+            font-family: Josefin Sans;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .page6{
+            background-image: url(bottle-champagne-glasses-dark-background_93675-62281.jpg);
+            background-position: center;
+            background-size: cover;
+         
+            background-repeat: no-repeat;
+          
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;  
+         height: 100lvh;
+        }
+
+        .page6 article img{
+            width: 20rem;
+        }
+
+        .page6 article p{
+            font-family: Josefin Sans;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
