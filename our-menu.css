@@ -488,7 +488,7 @@ body {
 }
 
 .page7 .help {
-  background: rgba(0, 0, 0, 0.725);
+  background: rgba(0, 0, 0, 0.801);
   width: auto;
   padding-top: 8rem;
   padding-left: 2rem;
@@ -550,6 +550,7 @@ font-size: 2rem;
     /* color: white; */
     font-family: Josefin Sans;
 font-weight: 500;
+transition: 1s;
 text-decoration: none;
 font-size: 2rem;
     text-decoration: none;

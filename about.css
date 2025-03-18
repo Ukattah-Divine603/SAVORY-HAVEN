@@ -230,6 +230,8 @@ span {
   height: 100lvh;
 }
 
+
+
 h4 {
   font-family: Ubuntu;
   color: #ffffff;
@@ -272,11 +274,16 @@ li a:hover {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.782);
+  width: 100%;
+  height: 100lvh;
 }
+
+
 
 h1 {
   color: rgb(255, 255, 255);
-  -webkit-text-stroke: 2px goldenrod;
+ 
 }
 
 .p-pple {
