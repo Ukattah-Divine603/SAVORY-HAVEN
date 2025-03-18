@@ -1,14 +1,14 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-    padding: 0%;
-    margin: 0%;
+body {
+  padding: 0%;
+  margin: 0%;
 }
 
-header{
-    display: flex;
+header {
+  display: flex;
   flex-direction: row;
   margin: 0%;
   z-index: 1;
@@ -16,77 +16,75 @@ header{
   left: 0;
   right: 0;
   top: 0;
- padding: 2rem;
+  padding: 2rem;
   margin: 0%;
   height: auto;
   justify-content: space-between;
   align-items: center;
-
 }
 
-header > .left-section > img{
-width: 3.5rem;
+header > .left-section > img {
+  width: 3.5rem;
 }
 
-header > .left-section > p{
-   font-size: 1.5rem;
-   font-weight: 700;
+header > .left-section > p {
+  font-size: 1.5rem;
+  font-weight: 700;
 
-color: #fffffffb;
-    font-family: Josefin Sans;
-    }
+  color: #fffffffb;
+  font-family: Josefin Sans;
+}
 
-    header > .left-section{
-    display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+header > .left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-        }
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  /* margin-top: -.5rem; */
+  justify-content: center;
+}
 
-        ul{
-         display: flex;
-            gap: 1rem;
-            list-style-type: none;
-            align-items: center;
-                 text-align: center;
-            /* margin-top: -.5rem; */
-            justify-content: center;
-        }
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  /* /* border: 1px solid goldenrod; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-        ul li a{
-          text-decoration: none;
-          color: #ffffff;  
-          font-family: Ubuntu;
-          text-align: center;
-          /* /* border: 1px solid goldenrod; */
-          padding-top: 10px;
-          padding-bottom: 10px;
-          padding-left: 20px;
-          padding-right: 20px;
-     display: flex;
-     justify-content: center;
-     align-items: center; 
-        }
+ul li a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: Ubuntu;
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
 
-        ul li a:hover{
-            text-decoration: none;
-            color: white;  
-            font-family: Ubuntu;
-            background-color: transparent;
-            text-align: center;
-            border: 1px solid white;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       transition: .5s;
-          }
-
-    /* .container li a{
+/* .container li a{
             text-decoration: none;
             color: #ffffff;  
             font-family: Ubuntu;
@@ -101,212 +99,206 @@ color: #fffffffb;
        justify-content: center;
        align-items: center;
           } */
-  
-          li a:hover{
-              text-decoration: none;
-              color: rgb(255, 255, 255);  
-              font-family: Ubuntu;
-              background-color: goldenrod;
-              text-align: center;
-              border: 1px solid rgb(255, 255, 255);
-              padding-top: 10px;
-              padding-bottom: 10px;
-              padding-left: 20px;
-              padding-right: 20px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         transition: .5s;
-            }
 
-          .intro{
-            background-image: url(about.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            display: flex;
-        flex-direction: column;
-        gap: -5rem;
-        align-items: center;
-        justify-content: center;  
-         height: 100lvh;
-          }
+li a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  background-color: goldenrod;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
 
-          .intro > img{
-            width: 20rem;
-          }
+.intro {
+  background-image: url(about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: -5rem;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+}
 
-    .right li a{
-      border: #daa520 solid 2px;
-      color: #ffffff;
-padding: 1rem;
-width: 2rem ;
-align-items: center;
-justify-content: center;
-display: flex;
-border-radius: 50%;
-    }
+.intro > img {
+  width: 20rem;
+}
 
-    .right li a:hover{
-        border: white solid 2px;
-      color: #ffffff;
-padding: 1rem;
-background-color: #daa520;
-width: 2rem ;
-align-items: center;
-justify-content: center;
-display: flex;
-border-radius: 50%;
-    }
-          .right{
-            position: absolute;
-            top: 80%;
-        
-            bottom: 0;
-            left: 50%;
-            right: 0;
-          }
+.right li a {
+  border: #daa520 solid 2px;
+  color: #ffffff;
+  padding: 1rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+}
 
-          main{
+.right li a:hover {
+  border: white solid 2px;
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #daa520;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+}
+.right {
+  position: absolute;
+  top: 80%;
+
+  bottom: 0;
+  left: 50%;
+  right: 0;
+}
+
+main {
   gap: 1rem;
   display: flex;
   flex-direction: column;
 }
-span{
+span {
   font-weight: 500;
   color: goldenrod;
   font-style: italic;
 }
 
-          .go-up{
-            position: absolute;
-            top: 190%;
-         
-            bottom: 0;
-            left: 50%;
-            right: 0;
-           
-          }
+.go-up {
+  position: absolute;
+  top: 190%;
 
-          .go-up li a{
-         
-                border: #daa520 solid 2px;
-      color: #ffffff;
-padding: 1rem;
-width: 2rem ;
-align-items: center;
-justify-content: center;
-display: flex;
-border-radius: 50%;
-          }
-
-          .go-up li a:hover{
-                    border: white solid 2px;
-      color: #ffffff;
-padding: 1rem;
-background-color: #daa520;
-width: 2rem ;
-align-items: center;
-justify-content: center;
-display: flex;
-border-radius: 50%;
-          }
-
-          .intro > p{
-            text-shadow: 1px 1px 1px goldenrod;
-            
-            font-family: Ubuntu;
-            color: #ffffff;
-            font-size: 4rem;
-          }
-.history{
-          background-image: url(empty-black-espresso-coffee-cup-black-table-top-view-copy-space-minimalist-breakfast-idea-black-sunshine-coffee-steam.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 100%;
-          display: flex;
-      flex-direction: column;
-      gap: -5rem;
-      align-items: center;
-      justify-content: center;  
-       height: 100lvh;
+  bottom: 0;
+  left: 50%;
+  right: 0;
 }
 
-
-h4{
-    font-family: Ubuntu;
+.go-up li a {
+  border: #daa520 solid 2px;
   color: #ffffff;
-
+  padding: 1rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
 }
 
-li a:hover{
-    text-decoration: none;
-    color: rgb(255, 255, 255);  
-    font-family: Ubuntu;
-    background-color: goldenrod;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: .5s;
-  }
+.go-up li a:hover {
+  border: white solid 2px;
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #daa520;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+}
 
-  .details > img{
-    width: 6rem;
-  }
+.intro > p {
+  text-shadow: 1px 1px 1px goldenrod;
 
-  .details{
-    font-family: Josefin Sans;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-color: white;
+  font-family: Ubuntu;
+  color: #ffffff;
+  font-size: 4rem;
+}
+.history {
+  background-image: url(empty-black-espresso-coffee-cup-black-table-top-view-copy-space-minimalist-breakfast-idea-black-sunshine-coffee-steam.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: -5rem;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+}
 
-  }
+h4 {
+  font-family: Ubuntu;
+  color: #ffffff;
+}
 
-  .history > div{
-    display: grid;
- grid-template-columns: auto;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+li a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  background-color: goldenrod;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
 
-  }
+.details > img {
+  width: 6rem;
+}
 
-  h1{
-color: rgb(255, 255, 255);
--webkit-text-stroke: 2px goldenrod;
-  }
+.details {
+  font-family: Josefin Sans;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: white;
+}
 
-  .p-pple{
-    font-family: Ubuntu;
-    font-size: 1.3rem;
-    text-align: left;
-    color: white;
-    line-height: 2rem;
-    justify-content: center;
-  }
+.history > div {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
 
-  .copy{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    flex-direction: row;
-  }
+h1 {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px goldenrod;
+}
 
-  .dirp{
-    border-radius: 1rem;
-    box-shadow: 5px 5px 10px rgba(218, 165, 32, 0.636);
-  }
+.p-pple {
+  font-family: Ubuntu;
+  font-size: 1.3rem;
+  text-align: left;
+  color: white;
+  line-height: 2rem;
+  justify-content: center;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: row;
+}
+
+.dirp {
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(218, 165, 32, 0.636);
+}
