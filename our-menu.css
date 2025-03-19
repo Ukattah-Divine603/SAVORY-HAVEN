@@ -173,6 +173,21 @@ body {
   text-align: center;
 }
 
+.page article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
 .albulm {
   display: flex;
   flex-direction: row;
@@ -347,6 +362,14 @@ body {
   text-align: center;
 }
 
+.page2 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
+}
+
 .page3 {
   background-image: url(c61d9442136b74a08fa39861465db145.jpg);
   background-position: center;
@@ -362,6 +385,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100lvh;
+}
+
+.page3 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
 }
 
 .page3 article img {
@@ -390,6 +421,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100lvh;
+}
+
+.page4 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
 }
 
 .page4 article img {
@@ -424,6 +463,14 @@ body {
   width: 20rem;
 }
 
+.page5 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
+}
+
 .page5 article p {
   font-family: Josefin Sans;
   font-size: 2rem;
@@ -446,6 +493,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100lvh;
+}
+
+.page6 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
 }
 
 .page6 article img {
@@ -478,6 +533,14 @@ body {
 
 .page7 article img {
   width: 20rem;
+}
+
+.page7 article {
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  scale: 0.1;
+  opacity: 0;
 }
 
 .page7 article p {
@@ -524,52 +587,52 @@ width: auto;
 
 }*/
 
-.bit{
-    list-style-type: none;
-    color: white;
-    font-family: Josefin Sans;
-font-weight: 500;
-text-decoration: none;
-font-size: 2rem;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Ubuntu;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
+.bit {
+  list-style-type: none;
+  color: white;
+  font-family: Josefin Sans;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.bit:hover{
-    list-style-type: none;
-    /* color: white; */
-    font-family: Josefin Sans;
-font-weight: 500;
-transition: 1s;
-text-decoration: none;
-font-size: 2rem;
-    text-decoration: none;
-    color: goldenrod;
-    font-family: Ubuntu;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    padding-top: 10px;
-    background: white;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
+.bit:hover {
+  list-style-type: none;
+  /* color: white; */
+  font-family: Josefin Sans;
+  font-weight: 500;
+  transition: 1s;
+  text-decoration: none;
+  font-size: 2rem;
+  text-decoration: none;
+  color: goldenrod;
+  font-family: Ubuntu;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  background: white;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-main{
-    gap: 1rem;
+main {
+  gap: 1rem;
 }
 
 /* .butn{

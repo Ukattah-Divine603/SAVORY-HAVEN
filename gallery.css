@@ -1,243 +1,243 @@
-body{
-    margin: 0%;
-    padding: 0%;
+body {
+  margin: 0%;
+  padding: 0%;
 }
 
-
-
 header {
-    display: flex;
-    flex-direction: row;
-    margin: 0%;
-    z-index: 1;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    padding-left: 2rem;
-    padding-right: 1rem;
-    margin: 0%;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header > .left-section > img {
-    width: 3.5rem;
-  }
-  
-  header > .left-section > p {
-    font-size: 1.5rem;
-    font-weight: 700;
-  
-    color: #fffffffb;
-    font-family: Josefin Sans;
-  }
-  
-  header > .left-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  ul {
-    display: flex;
-    gap: 1rem;
-    list-style-type: none;
-    align-items: center;
-    text-align: center;
-    /* margin-top: -.5rem; */
-    justify-content: center;
-  }
-  
-  ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Ubuntu;
-    text-align: center;
-    /* border: 1px solid goldenrod; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  ul li a:hover {
-    text-decoration: none;
-    color: white;
-    font-family: Ubuntu;
-    background-color: #daa520;
-    text-align: center;
-    border: 1px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-  }
-  
-  .container li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Ubuntu;
-    text-align: center;
-    border: 1px solid goldenrod;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    width: 10rem;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  li a:hover {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Ubuntu;
-    background-color: goldenrod;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-  }
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  margin: 0%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .first-page{
-    background-image: url(flat-lay-table-full-delicious-food-composition.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    font-family: Ubuntu;
-color: white;
-font-size: 3rem;
-    flex-direction: column;
-    gap: -5rem;
-    align-items: center;
-    justify-content: center;
-    height: 100lvh;
-  }
+header > .left-section > img {
+  width: 3.5rem;
+}
 
-  .second-page{
-    background-image: url(elegant-balloons-design-vector-black-background_53876-175061.avif);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    font-family: Ubuntu;
-color: white;
-font-size: 3rem;
-    flex-direction: column;
-    gap: -5rem;
-    align-items: center;
-    justify-content: center;
-    height: 100lvh;
-  }
+header > .left-section > p {
+  font-size: 1.5rem;
+  font-weight: 700;
 
+  color: #fffffffb;
+  font-family: Josefin Sans;
+}
 
-  .first-page div img{
-    width: 30rem;
-  }
-  
-  .first-page div{
-    background-color: rgba(0, 0, 0, 0.737);
-    width:               100%;
-    height: 100lvh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+header > .left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  /* margin-top: -.5rem; */
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  /* border: 1px solid goldenrod; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: Ubuntu;
+  background-color: #daa520;
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.container li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Ubuntu;
+  text-align: center;
+  border: 1px solid goldenrod;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  background-color: goldenrod;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.first-page {
+  background-image: url(flat-lay-table-full-delicious-food-composition.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  font-family: Ubuntu;
+  color: white;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: -5rem;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+}
+
+.second-page {
+  /* background-image: url(elegant-balloons-design-vector-black-background_53876-175061.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  font-family: Ubuntu;
+  color: white;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: -5rem;
+  margin-top: -4rem;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh; */
+}
+
+.first-page div img {
+  width: 30rem;
+}
+
+.first-page div {
+  background-color: rgba(0, 0, 0, 0.737);
+  width: 100%;
+  height: 100lvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .under .hr {
-    width: 2rem;
-    height: 0.5rem;
-    border-radius: 1rem;
-    margin-top: -1.5rem;
-    background-color: goldenrod;
-  }
+  width: 2rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  margin-top: -1.5rem;
+  background-color: goldenrod;
+}
 
-  .form{
-    
-        display: flex;
-      background-color: rgba(0, 0, 0, 0.766);
-        flex-direction: column;
-        width: 100%;
-        height: 100lvh;
-        justify-content: center;
-        align-items: center;
-  }
-  
-  .under {
-    display: flex;
+.form {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.766);
+  flex-direction: column;
+  width: 100%;
+  height: 100lvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.under {
+  display: flex;
   /* background-color: rgba(0, 0, 0, 0.766); */
-    flex-direction: column;
-    width: 100%;
-    height: 100lvh;
-    justify-content: center;
-    align-items: center;
-  }
+  flex-direction: column;
+  width: 100%;
+  height: 100lvh;
+  justify-content: center;
+  align-items: center;
+}
 
-  .under p{
-    font-family: Ubuntu;
-    font-size: 2rem;
-    color: white;
-  }
+.under p {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  color: white;
+}
 
-  article{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
+article .left img {
+  height: 25rem;
+}
 
-  .middle{
- 
-    display: flex;
-    flex-direction: column;
-  }
+article .right img {
+  height: 25rem;
+}
 
-  .middle div{
+.middle {
+  display: flex;
+  flex-direction: column;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+.middle div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  .middle div > img{
-    width: 20rem;
-  }
+.middle div > img {
+  width: 20rem;
+}
 
- .middle .uppy{
-    width: 20rem;
-    height: 23rem;
-    margin-bottom: -4rem;
- }
+.middle .uppy {
+  width: 10rem;
+  height: 13rem;
+  margin-bottom: -4rem;
+}
 
-
- .middle .upy{
-    width: 20rem;
-    height: 23rem;
-    margin-top: -4rem;
- }
+.middle .upy {
+  width: 20rem;
+  height: 23rem;
+  margin-top: -4rem;
+}

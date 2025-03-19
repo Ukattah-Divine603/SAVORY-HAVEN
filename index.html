@@ -48,7 +48,7 @@
         <p>SAVERY HAVEN</p>
       </div>
 
-      <ul>
+      <ul class="ul">
         <li>
           <a href="/index.html">Home</a>
         </li>
@@ -65,6 +65,60 @@
           <a href="/contact.html">Contact</a>
         </li>
       </ul>
+
+      <div class="mini-burg" id="ham-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="36"
+          height="36"
+          fill="currentColor"
+        >
+          <path d="M18 18V20H6V18H18ZM21 11V13H3V11H21ZM18 4V6H6V4H18Z"></path>
+        </svg>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <!-- Add the Onclick function -->
+        <!-- <svg
+          onclick="removeMenu()"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="36"
+          height="36"
+          fill="rgba(40,250,192,1)"
+        >
+          <path
+            d="M5.79285 5.20718 12 11.4143 18.2071 5.20718 16.7928 3.79297 12 8.58586 7.20706 3.79297 5.79285 5.20718ZM18.2072 18.7928 12.0001 12.5857 5.793 18.7928 7.20721 20.207 12.0001 15.4141 16.793 20.207 18.2072 18.7928Z"
+          ></path>
+        </svg> -->
+        <li class="navy">
+          <a class="nav-link" onclick="removeMenu()" href="/index.html">Home</a>
+        </li>
+
+        <li class="navy">
+          <a class="nav-link" onclick="removeMenu()" href="/about.html"
+            >About Us</a
+          >
+        </li>
+
+        <li class="navy">
+          <a class="nav-link" onclick="removeMenu()" href="/our-menu.html"
+            >Our Menu</a
+          >
+        </li>
+
+        <li class="navy">
+          <a class="nav-link" onclick="removeMenu()" href="/gallery.html"
+            >Gallery</a
+          >
+        </li>
+        <li class="navy">
+          <a class="nav-link" onclick="removeMenu()" href="/contact.html"
+            >Contact</a
+          >
+        </li>
+      </div>
     </header>
 
     <div class="slider">
@@ -111,7 +165,7 @@
           </div>
 
           <div>
-            <img class="fir" src="blep-removebg-preview.png" />
+            <img class="for" src="blep-removebg-preview.png" />
           </div>
         </div>
 
@@ -130,8 +184,8 @@
             </li>
           </div>
 
-          <div class="fop">
-            <img class="fir" src="blep-removebg-preview.png" />
+          <div>
+            <img class="for" src="blep-removebg-preview.png" />
           </div>
         </div>
 
@@ -151,7 +205,7 @@
           </div>
 
           <div>
-            <img class="fir" src="blep-removebg-preview.png" />
+            <img class="for" src="blep-removebg-preview.png" />
           </div>
         </div>
 
@@ -171,15 +225,16 @@
     </div>
 
     <script type="text/javascript">
-        var counter = 1;
-        setInterval(function(){
-            document.getElementById("radio" + counter).checked = true;
-            counter++;
-            if(counter>4){
-                counter = 1;
-            }
-        }, 5500);
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5500);
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
 <!-- <header>

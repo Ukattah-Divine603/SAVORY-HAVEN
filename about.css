@@ -118,7 +118,7 @@ li a:hover {
 }
 
 .intro {
-  background-image: url(about.jpg);
+  background-image: url(two-men-engaged-deep-conversation_961875-88840.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -209,6 +209,10 @@ span {
   border-radius: 50%;
 }
 
+.cover {
+  background-color: rgba(0, 0, 0, 0.862);
+}
+
 .intro > p {
   text-shadow: 1px 1px 1px goldenrod;
 
@@ -217,7 +221,7 @@ span {
   font-size: 4rem;
 }
 .history {
-  background-image: url(empty-black-espresso-coffee-cup-black-table-top-view-copy-space-minimalist-breakfast-idea-black-sunshine-coffee-steam.jpg);
+  background-image: url(process-creating-stand-up-comedy_23-2151058882.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,8 +233,6 @@ span {
   justify-content: center;
   height: 100lvh;
 }
-
-
 
 h4 {
   font-family: Ubuntu;
@@ -279,11 +281,8 @@ li a:hover {
   height: 100lvh;
 }
 
-
-
 h1 {
   color: rgb(255, 255, 255);
- 
 }
 
 .p-pple {
@@ -308,4 +307,142 @@ h1 {
 .dirp {
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(218, 165, 32, 0.636);
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.mini-burg {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-mobile > .navy {
+    margin: auto;
+    width: 80vw;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .menu-mobile > .navy:hover {
+    margin: auto;
+    cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+  }
+
+  .menu-mobile > .navy > a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .menu-mobile {
+    position: absolute;
+    top: 5rem;
+    width: 90vw;
+    height: 30rem;
+    /* Step 1 */
+    visibility: hidden;
+    padding: 1rem;
+    display: grid;
+    align-items: center;
+    /* backdrop-filter: blur(20px); */
+    gap: 1rem;
+    border: 1px solid goldenrod;
+    background-color: rgba(0, 0, 0, 0.699);
+    backdrop-filter: blur(100px);
+    /* background-color: transparent; */
+    justify-content: center;
+    transition: 0.5s ease;
+  }
+  /* Step 2 */
+  .open-menu {
+    visibility: visible;
+    transition: 0.5s ease;
+  }
+
+  .nav-link {
+    text-align: center;
+    /* margin-top: -.5rem; */
+  }
+
+  header .left-section ul {
+    display: none;
+  }
+
+  li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    background-color: goldenrod;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  .ul {
+    display: none;
+  }
+
+  .mini-burg {
+    display: block;
+    color: goldenrod;
+  }
+
+  .history {
+    display: flex;
+    flex-direction: row;
+    gap: -5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details img {
+    display: none;
+  }
+
+  .details h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .copy .p-pple p {
+    font-size: 0.7rem;
+  }
+
+  .copy {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dirp {
+    display: none;
+  }
+
+  .go-up {
+    display: none;
+  }
 }
