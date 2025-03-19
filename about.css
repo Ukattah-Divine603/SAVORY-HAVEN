@@ -167,7 +167,6 @@ li a:hover {
 }
 
 main {
-  gap: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -211,6 +210,8 @@ span {
 
 .cover {
   background-color: rgba(0, 0, 0, 0.862);
+  width: 100%;
+  height: 100lvh;
 }
 
 .intro > p {
@@ -330,6 +331,22 @@ h1 {
     display: flex;
   }
 
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .menu-mobile > .navy:hover {
     margin: auto;
     cursor: pointer;
@@ -347,6 +364,10 @@ h1 {
     font-family: Josefin Sans;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  .p-pple p {
+    font-size: 1rem;
   }
 
   .menu-mobile {
@@ -432,8 +453,10 @@ h1 {
   }
 
   .copy {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -443,6 +466,15 @@ h1 {
   }
 
   .go-up {
+    display: none;
+  }
+
+  .cover div {
+    margin-bottom: -2rem;
+    padding: 0%;
+  }
+
+  .right {
     display: none;
   }
 }
